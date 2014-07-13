@@ -182,7 +182,7 @@ class User < ActiveRecord::Base
       
       has :id, created_at, updated_at
       
-      set_property :delta => FlyingSphinx::DelayedDelta
+      #set_property :delta => FlyingSphinx::DelayedDelta
     end
   end
 

@@ -67,7 +67,7 @@ class Video < ActiveRecord::Base
       
       has user_id, created_at
       
-      set_property :delta => FlyingSphinx::DelayedDelta
+      #set_property :delta => FlyingSphinx::DelayedDelta
     end
   end
   
